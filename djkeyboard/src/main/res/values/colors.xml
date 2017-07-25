@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- new -->
+    <color name="c_333333">#333333</color>
+
+    <color name="c_d8d3cf">#d8d3cf</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="c_a59a93">#a59a93</color>
+
+    <!--pressed-->
+    <color name="c_b9afa9">#b9afa9</color>
+
+    <color name="c_c35b3a">#c35b3a</color>
+
+    <color name="c_9d472c">#9d472c</color>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="scroll_height_by_keyboard"/>
+    <item type="id" name="bind_keyboard_2_editor"/>
+
+    <item type="id" name="anchor_view" />
+
+</resources>
