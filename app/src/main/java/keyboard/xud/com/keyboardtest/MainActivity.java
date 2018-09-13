@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         editText1 = (EditText) findViewById(R.id.edit1);
         editText2 = (EditText) findViewById(R.id.edit2);
         editText1.setInputType(InputType.TYPE_CLASS_TEXT);
-        editText2.setInputType(InputType.TYPE_CLASS_NUMBER);
+        editText2.setInputType(InputType.TYPE_CLASS_NUMBER|InputType.TYPE_NUMBER_FLAG_DECIMAL);
         
         keyboardManagerNumber = new KeyboardManager(this);
         initNumberKeyboard();
@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initNumberKeyboard() {
         numberKeyboard = new NumberKeyboard(context,NumberKeyboard.DEFAULT_NUMBER_XML_LAYOUT);
+        numberKeyboard.setEnableDotInput(true);
         numberKeyboard.setActionDoneClickListener(new NumberKeyboard.ActionDoneClickListener() {
             @Override
             public void onActionDone(CharSequence charSequence) {
